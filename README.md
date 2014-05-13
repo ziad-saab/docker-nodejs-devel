@@ -16,10 +16,11 @@ Run it with bash in interactive mode
 ------------------------------------
 ```
 docker run -i -t ziadsaab/docker-nodejs-devel
+node --harmony
 ```
 
 Run it in REPL mode
 -------------------
 ```
-docker run -i -t ziadsaab/docker-nodejs-devel /node-0.11.13/node
+docker run -i -t ziadsaab/docker-nodejs-devel /node-0.11.13/node --harmony
 ```
